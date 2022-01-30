@@ -1,13 +1,12 @@
 name: make lint
 
-on:
-  push:
-    branches: [ master ]
+on: [push]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Run linter
-        run:
-          make lint
+    - uses: actions/checkout@v2
+    - name: Run linter
+      run: |
+        make lint
