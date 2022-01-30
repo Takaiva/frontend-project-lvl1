@@ -8,11 +8,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: npm install
-        # Install project
     - run: |
           make install
       env:
           CI: true
     - name: Run linter
-      run: |
+    - run: |
         make lint
