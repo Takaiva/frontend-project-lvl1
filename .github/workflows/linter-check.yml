@@ -7,12 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-      - name: npm install
+    - name: npm install
         # Install project
-        run: |
+    - run: |
           make install
-        # Add environment variables
-        env:
+      env:
           CI: true
     - name: Run linter
       run: |
