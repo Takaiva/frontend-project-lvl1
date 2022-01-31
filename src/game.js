@@ -3,7 +3,7 @@ import randomNum from './randomNum.js';
 import isEven from './isEven.js';
 import rightAnswer from './rightAnswer.js';
 
-const evenOrNot = () => {
+const game = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   const number1 = randomNum(1, 100);
   const answerForNumber1 = rightAnswer(number1);
@@ -18,4 +18,4 @@ const evenOrNot = () => {
   }
 };
 
-export default evenOrNot;
+export default game;
