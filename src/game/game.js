@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
-import randomNum from './randomNum.js';
-import isEven from './isEven.js';
-import rightAnswer from './rightAnswer.js';
+import randomNum from '../functions/randomNum.js';
+import isEven from '../functions/isEven.js';
+import rightAnswer from '../functions/rightAnswer.js';
 
 const game = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
