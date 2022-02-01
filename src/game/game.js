@@ -15,6 +15,7 @@ const game = () => {
   const number3 = randomNum(1, 100);
 
   const questions = [number1, number2, number3];
+  let correctAnswerCount = 0;
 
   questions.every((num) => {
     const correctAnswer = rightAnswer(num);
@@ -22,6 +23,7 @@ const game = () => {
     const userAnswer = readlineSync.question('Your answer: ');
     if (isTrue(userAnswer, num) === true) {
       console.log('Correct!');
+      correctAnswerCount += 1;
       return true;
     }
     console.log(
@@ -30,7 +32,9 @@ const game = () => {
     console.log(`Let's try again, ${userName}!`);
     return false;
   });
-  console.log(`Congratulations, ${userName}!`);
+  if (correctAnswerCount === 3) {
+    console.log(`Congratulations, ${userName}!`);
+  }
 };
 
 export default game;
