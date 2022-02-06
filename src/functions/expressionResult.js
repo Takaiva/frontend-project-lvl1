@@ -16,5 +16,4 @@ const expressionResult = (num1, num2, operator) => {
   }
   return result;
 };
-console.log(expressionResult(24, 42, '*'));
 export default expressionResult;
