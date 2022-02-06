@@ -4,3 +4,5 @@
 [![make lint](https://github.com/Takaiva/frontend-project-lvl1/actions/workflows/linter-check.yml/badge.svg?branch=main)](https://github.com/Takaiva/frontend-project-lvl1/actions/workflows/linter-check.yml)
 <h3> Brain-even/Проверка на чётность.</h3>
 <a href="https://asciinema.org/a/LWQ4EMJ8yrmcUSsVbrRQ5ifNX" target="_blank"><img src="https://asciinema.org/a/LWQ4EMJ8yrmcUSsVbrRQ5ifNX.svg" /></a>
+<h3> Brain-calc/Вычисли выражение.</h3>
+<a href="https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C" target="_blank"><img src="https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C.svg" /></a>
