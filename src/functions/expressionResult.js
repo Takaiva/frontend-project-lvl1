@@ -1,5 +1,3 @@
-import { cons, car, cdr, toString, isPair } from '@hexlet/pairs';
-
 const expressionResult = (num1, num2, operator) => {
   const number1 = Number(num1);
   const number2 = Number(num2);
