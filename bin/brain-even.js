@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import game from '../src/game/game.js';
+import gameEven from '../src/games/game-even.js';
+import game from '../src/index.js';
 
 // Launching a game
-game();
+game(gameEven, 'Answer "yes" if the number is even, otherwise answer "no"');
