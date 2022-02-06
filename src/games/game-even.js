@@ -23,7 +23,7 @@ const gameEven = () => {
       return false;
     }
   }
-  return questions;
+  return true;
 };
 
 export default gameEven;
