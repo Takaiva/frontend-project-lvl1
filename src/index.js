@@ -5,7 +5,7 @@ const game = (typeOfGame, rule) => {
 
   const userName = readlineSync.question('May I have your name? ');
   const success = (`Congratulations, ${userName}!`);
-  const fail = (`Let's try again, ${userName}`);
+  const fail = (`Let's try again, ${userName}!`);
 
   console.log(`Hello, ${userName}!`);
 
