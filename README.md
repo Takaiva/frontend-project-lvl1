@@ -6,3 +6,5 @@
 <a href="https://asciinema.org/a/LWQ4EMJ8yrmcUSsVbrRQ5ifNX" target="_blank"><img src="https://asciinema.org/a/LWQ4EMJ8yrmcUSsVbrRQ5ifNX.svg" /></a>
 <h3> Brain-calc/Вычисли выражение.</h3>
 <a href="https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C" target="_blank"><img src="https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C.svg" /></a>
+<h3> Brain-gcd/Найди наибольший общий делитель.</h3>
+<a href="https://asciinema.org/a/zAunCn6mgHZhS24rNy0QdXUpE" target="_blank"><img src="https://asciinema.org/a/zAunCn6mgHZhS24rNy0QdXUpE.svg" /></a>
