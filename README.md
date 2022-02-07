@@ -34,3 +34,11 @@
 #### Launch: make brain-progression
 
 [![asciicast](https://asciinema.org/a/R4rFF3pTMgV7SVYqK0c6ylA35.svg)](https://asciinema.org/a/R4rFF3pTMgV7SVYqK0c6ylA35)
+
+### Game: brain-prime
+
+#### Description: Find out if the number is prime
+
+#### Launch: make brain-prime
+
+[![asciicast](https://asciinema.org/a/UHrkSmjiJuyCVisgnR3zVxaLQ.svg)](https://asciinema.org/a/UHrkSmjiJuyCVisgnR3zVxaLQ)
