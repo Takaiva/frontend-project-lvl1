@@ -11,9 +11,26 @@
 
 [![asciicast](https://asciinema.org/a/SbhptRjuLKbGSBCzP4FlS2cUu.svg)](https://asciinema.org/a/SbhptRjuLKbGSBCzP4FlS2cUu)
 
-<h3> Brain-calc/Чему равно выражение?</h3>
-<a href="https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C" target="_blank"><img src="https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C.svg" /></a>
-<h3> Brain-gcd/Найди наибольший общий делитель.</h3>
-<a href="https://asciinema.org/a/zAunCn6mgHZhS24rNy0QdXUpE" target="_blank"><img src="https://asciinema.org/a/zAunCn6mgHZhS24rNy0QdXUpE.svg" /></a>
-<h3> Brain-progression/Найди недостающее число.</h3>
-<a href="https://asciinema.org/a/R4rFF3pTMgV7SVYqK0c6ylA35" target="_blank"><img src="https://asciinema.org/a/R4rFF3pTMgV7SVYqK0c6ylA35.svg" /></a>
+### Game: brain-calc
+
+#### Description: Find out the result of the expression
+
+#### Launch: make brain-calc
+
+[![asciicast](https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C.svg)](https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C)
+
+### Game: brain-gcd
+
+#### Description: Find out the greatest common divisor
+
+#### Launch: make brain-gcd
+
+[![asciicast](https://asciinema.org/a/zAunCn6mgHZhS24rNy0QdXUpE.svg)](https://asciinema.org/a/zAunCn6mgHZhS24rNy0QdXUpE)
+
+### Game: brain-progression
+
+#### Description: Find out the missing number
+
+#### Launch: make brain-progression
+
+[![asciicast](https://asciinema.org/a/R4rFF3pTMgV7SVYqK0c6ylA35.svg)](https://asciinema.org/a/R4rFF3pTMgV7SVYqK0c6ylA35)
