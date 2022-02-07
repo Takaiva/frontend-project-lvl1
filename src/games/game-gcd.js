@@ -10,7 +10,7 @@ const gameGcd = () => {
     const correctAnswer = gcd(number1, number2);
     console.log(`Question: ${number1} ${number2}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    if (gcd(number1, number2) === userAnswer) {
+    if (gcd(number1, number2) === Number(userAnswer)) {
       console.log('Correct!');
     } else {
       console.log(
