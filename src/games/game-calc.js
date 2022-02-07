@@ -10,17 +10,14 @@ const gameCalc = () => {
     const number1 = randomNum(1, 100);
     const number2 = randomNum(1, 100);
     const operator = randomItem(operators);
+    const correctAnswer = expressionResult(number1, number2, operator);
     console.log(`Question: ${number1} ${operator} ${number2}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (Number(userAnswer) === expressionResult(number1, number2, operator)) {
       console.log('Correct!');
     } else {
       console.log(
-        `"${userAnswer}" is wrong answer ;(. Correct answer was "${expressionResult(
-          number1,
-          number2,
-          operator,
-        )}".`,
+        `"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer}".`,
       );
       return false;
     }
