@@ -3,7 +3,7 @@
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 [![make lint](https://github.com/Takaiva/frontend-project-lvl1/actions/workflows/linter-check.yml/badge.svg?branch=main)](https://github.com/Takaiva/frontend-project-lvl1/actions/workflows/linter-check.yml)
 <h3> Brain-even/Проверка на чётность.</h3>
-<a href="https://asciinema.org/a/LWQ4EMJ8yrmcUSsVbrRQ5ifNX" target="_blank"><img src="https://asciinema.org/a/LWQ4EMJ8yrmcUSsVbrRQ5ifNX.svg" /></a>
+<a href="https://asciinema.org/a/SbhptRjuLKbGSBCzP4FlS2cUu" target="_blank"><img src="https://asciinema.org/a/SbhptRjuLKbGSBCzP4FlS2cUu.svg" /></a>
 <h3> Brain-calc/Вычисли выражение.</h3>
 <a href="https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C" target="_blank"><img src="https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C.svg" /></a>
 <h3> Brain-gcd/Найди наибольший общий делитель.</h3>
