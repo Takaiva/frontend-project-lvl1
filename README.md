@@ -4,7 +4,9 @@
 [![make lint](https://github.com/Takaiva/frontend-project-lvl1/actions/workflows/linter-check.yml/badge.svg?branch=main)](https://github.com/Takaiva/frontend-project-lvl1/actions/workflows/linter-check.yml)
 <h3> Brain-even/Проверка на чётность.</h3>
 <a href="https://asciinema.org/a/SbhptRjuLKbGSBCzP4FlS2cUu" target="_blank"><img src="https://asciinema.org/a/SbhptRjuLKbGSBCzP4FlS2cUu.svg" /></a>
-<h3> Brain-calc/Вычисли выражение.</h3>
+<h3> Brain-calc/Чему равно выражение?</h3>
 <a href="https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C" target="_blank"><img src="https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C.svg" /></a>
 <h3> Brain-gcd/Найди наибольший общий делитель.</h3>
 <a href="https://asciinema.org/a/zAunCn6mgHZhS24rNy0QdXUpE" target="_blank"><img src="https://asciinema.org/a/zAunCn6mgHZhS24rNy0QdXUpE.svg" /></a>
+<h3> Brain-progression/Найди недостающее число.</h3>
+<a href="https://asciinema.org/a/R4rFF3pTMgV7SVYqK0c6ylA35" target="_blank"><img src="https://asciinema.org/a/R4rFF3pTMgV7SVYqK0c6ylA35.svg" /></a>
