@@ -11,14 +11,14 @@ const gamePrime = () => {
   ];
 
   let roundCount = 0;
-  const random = [0, 1];
+  const random = ['Prime', 'NotPrime'];
   const yesAnswer = 'yes';
   const noAnswer = 'no';
 
   for (; roundCount < 3; roundCount += 1) {
     let number = 0;
     const primeOrNot = randomItem(random);
-    if (primeOrNot === 0) {
+    if (primeOrNot === 'Prime') {
       number = randomItem(primeNumbers);
     } else {
       number = randomNum(2, 100);
