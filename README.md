@@ -35,7 +35,7 @@ or (with 'npm link' executed in the main directory)
 
 #### Description: Find out if the number is even
 
-Launch
+`Launch`
 
 ```sh
 make brain-even
@@ -47,7 +47,7 @@ make brain-even
 
 #### Description: Find out the result of the expression
 
-Launch
+`Launch`
 
 ```sh
 make brain-calc
@@ -59,7 +59,7 @@ make brain-calc
 
 #### Description: Find out the greatest common divisor
 
-Launch
+`Launch`
 
 ```sh
 make brain-gcd
@@ -71,7 +71,7 @@ make brain-gcd
 
 #### Description: Find out the missing number
 
-Launch
+`Launch`
 
 ```sh
 make brain-progression
@@ -83,7 +83,7 @@ make brain-progression
 
 #### Description: Find out if the number is prime
 
-Launch
+`Launch`
 
 ```sh
 make brain-prime
