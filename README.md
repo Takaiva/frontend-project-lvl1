@@ -7,7 +7,7 @@
 
 Clone this repository to your local directory
 
-Install dependencies
+`Install dependencies`
 
 ```sh
 make install
