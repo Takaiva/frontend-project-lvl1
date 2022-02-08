@@ -90,3 +90,7 @@ make brain-prime
 ```
 
 [![asciicast](https://asciinema.org/a/UHrkSmjiJuyCVisgnR3zVxaLQ.svg)](https://asciinema.org/a/UHrkSmjiJuyCVisgnR3zVxaLQ)
+
+## Requirements
+
+Nodejs version 17.0.0 or higher
