@@ -35,10 +35,10 @@ or (with 'npm link' executed in the main directory)
 
 #### Description: Find out if the number is even
 
-#### Launch
+Launch
 
 ```sh
-<b>make brain-even</b> or <b><brain-even></b>
+**make brain-even** or **brain-even**
 ```
 
 [![asciicast](https://asciinema.org/a/SbhptRjuLKbGSBCzP4FlS2cUu.svg)](https://asciinema.org/a/SbhptRjuLKbGSBCzP4FlS2cUu)
@@ -47,7 +47,11 @@ or (with 'npm link' executed in the main directory)
 
 #### Description: Find out the result of the expression
 
-#### Launch: make brain-calc
+Launch
+
+```sh
+**make brain-calc** or **brain-calc**
+```
 
 [![asciicast](https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C.svg)](https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C)
 
@@ -55,7 +59,11 @@ or (with 'npm link' executed in the main directory)
 
 #### Description: Find out the greatest common divisor
 
-#### Launch: make brain-gcd
+Launch
+
+```sh
+**make brain-gcd** or **brain-gcd**
+```
 
 [![asciicast](https://asciinema.org/a/zAunCn6mgHZhS24rNy0QdXUpE.svg)](https://asciinema.org/a/zAunCn6mgHZhS24rNy0QdXUpE)
 
@@ -63,7 +71,11 @@ or (with 'npm link' executed in the main directory)
 
 #### Description: Find out the missing number
 
-#### Launch: make brain-progression
+Launch
+
+```sh
+**make brain-progression** or **brain-progression**
+```
 
 [![asciicast](https://asciinema.org/a/R4rFF3pTMgV7SVYqK0c6ylA35.svg)](https://asciinema.org/a/R4rFF3pTMgV7SVYqK0c6ylA35)
 
@@ -71,6 +83,10 @@ or (with 'npm link' executed in the main directory)
 
 #### Description: Find out if the number is prime
 
-#### Launch: make brain-prime
+Launch
+
+```sh
+**make brain-prime** or **brain-prime**
+```
 
 [![asciicast](https://asciinema.org/a/UHrkSmjiJuyCVisgnR3zVxaLQ.svg)](https://asciinema.org/a/UHrkSmjiJuyCVisgnR3zVxaLQ)
