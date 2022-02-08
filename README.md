@@ -35,7 +35,11 @@ or (with 'npm link' executed in the main directory)
 
 #### Description: Find out if the number is even
 
-#### Launch: make brain-even
+#### Launch
+
+```sh
+<b>make brain-even</b> or <b><brain-even></b>
+```
 
 [![asciicast](https://asciinema.org/a/SbhptRjuLKbGSBCzP4FlS2cUu.svg)](https://asciinema.org/a/SbhptRjuLKbGSBCzP4FlS2cUu)
 
