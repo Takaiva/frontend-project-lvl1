@@ -13,13 +13,13 @@ Clone this repository to your local directory
 make install
 ```
 
-Install games
+`Install games`
 
 ```sh
 npm link
 ```
 
-Run a game either by
+`Run a game` either by
 
 ```sh
 make <game>
