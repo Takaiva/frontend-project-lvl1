@@ -38,7 +38,7 @@ or (with 'npm link' executed in the main directory)
 Launch
 
 ```sh
-**make brain-even** or **brain-even**
+make brain-even
 ```
 
 [![asciicast](https://asciinema.org/a/SbhptRjuLKbGSBCzP4FlS2cUu.svg)](https://asciinema.org/a/SbhptRjuLKbGSBCzP4FlS2cUu)
@@ -50,7 +50,7 @@ Launch
 Launch
 
 ```sh
-**make brain-calc** or **brain-calc**
+make brain-calc
 ```
 
 [![asciicast](https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C.svg)](https://asciinema.org/a/8gnCtBFze8GThGmuoy1KRkg6C)
@@ -62,7 +62,7 @@ Launch
 Launch
 
 ```sh
-**make brain-gcd** or **brain-gcd**
+make brain-gcd
 ```
 
 [![asciicast](https://asciinema.org/a/zAunCn6mgHZhS24rNy0QdXUpE.svg)](https://asciinema.org/a/zAunCn6mgHZhS24rNy0QdXUpE)
@@ -74,7 +74,7 @@ Launch
 Launch
 
 ```sh
-**make brain-progression** or **brain-progression**
+make brain-progression
 ```
 
 [![asciicast](https://asciinema.org/a/R4rFF3pTMgV7SVYqK0c6ylA35.svg)](https://asciinema.org/a/R4rFF3pTMgV7SVYqK0c6ylA35)
@@ -86,7 +86,7 @@ Launch
 Launch
 
 ```sh
-**make brain-prime** or **brain-prime**
+make brain-prime
 ```
 
 [![asciicast](https://asciinema.org/a/UHrkSmjiJuyCVisgnR3zVxaLQ.svg)](https://asciinema.org/a/UHrkSmjiJuyCVisgnR3zVxaLQ)
