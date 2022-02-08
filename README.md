@@ -3,6 +3,34 @@
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 [![make lint](https://github.com/Takaiva/frontend-project-lvl1/actions/workflows/linter-check.yml/badge.svg?branch=main)](https://github.com/Takaiva/frontend-project-lvl1/actions/workflows/linter-check.yml)
 
+## Setup
+
+clone this repository to your local directory
+
+install dependencies
+
+```sh
+make install
+```
+
+install games
+
+```sh
+npm link
+```
+
+run a game either by
+
+```sh
+make <game-name>
+```
+
+or (with 'npm link' executed in the main directory)
+
+```sh
+<game-name>
+```
+
 ### Game: brain-even
 
 #### Description: Find out if the number is even
