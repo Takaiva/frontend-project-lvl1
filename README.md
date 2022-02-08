@@ -5,30 +5,30 @@
 
 ## Setup
 
-clone this repository to your local directory
+Clone this repository to your local directory
 
-install dependencies
+Install dependencies
 
 ```sh
 make install
 ```
 
-install games
+Install games
 
 ```sh
 npm link
 ```
 
-run a game either by
+Run a game either by
 
 ```sh
-make <game-name>
+make <game>
 ```
 
 or (with 'npm link' executed in the main directory)
 
 ```sh
-<game-name>
+<game>
 ```
 
 ### Game: brain-even
