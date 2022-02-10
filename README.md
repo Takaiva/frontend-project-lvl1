@@ -3,7 +3,6 @@
 
 <!-- CodeClimate -->
 [![Maintainability](https://api.codeclimate.com/v1/badges/4072acb3910a44f0d1bd/maintainability)](https://codeclimate.com/github/Takaiva/frontend-project-lvl1/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/4072acb3910a44f0d1bd/test_coverage)](https://codeclimate.com/github/Takaiva/frontend-project-lvl1/test_coverage)
 <!-- GitHub Actions -->
 [![make lint](https://github.com/Takaiva/frontend-project-lvl1/actions/workflows/linter-check.yml/badge.svg?branch=main)](https://github.com/Takaiva/frontend-project-lvl1/actions/workflows/linter-check.yml)
 
