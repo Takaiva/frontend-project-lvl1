@@ -1,9 +1,9 @@
-import rightAnswer from '../functions/rightAnswer.js';
-import randomNum from '../functions/randomNum.js';
+import getRightAnswer from '../functions/rightAnswer.js';
+import getRandomNum from '../functions/randomNum.js';
 
 const gameEven = () => {
-  const num = randomNum(1, 100);
-  const correctAnswer = rightAnswer(num);
+  const num = getRandomNum(1, 100);
+  const correctAnswer = getRightAnswer(num);
   return [num, correctAnswer];
 };
 

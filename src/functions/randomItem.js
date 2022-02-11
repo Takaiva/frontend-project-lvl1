@@ -1,3 +1,1 @@
-const randomItem = (array) => array[Math.floor(Math.random() * array.length)];
-
-export default randomItem;
+export default (array) => array[Math.floor(Math.random() * array.length)];

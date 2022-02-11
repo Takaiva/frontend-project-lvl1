@@ -1,4 +1,4 @@
-const expressionResult = (num1, num2, operator) => {
+export default (num1, num2, operator) => {
   const number1 = Number(num1);
   const number2 = Number(num2);
   let result;
@@ -14,4 +14,3 @@ const expressionResult = (num1, num2, operator) => {
   }
   return result;
 };
-export default expressionResult;

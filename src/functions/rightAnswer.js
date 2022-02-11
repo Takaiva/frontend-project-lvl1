@@ -1,6 +1,6 @@
 import isEven from './isEven.js';
 
-const rightAnswer = (num) => {
+export default (num) => {
   const yesAnswer = 'yes';
   const noAnswer = 'no';
   if (isEven(num) === true) {
@@ -8,5 +8,3 @@ const rightAnswer = (num) => {
   }
   return noAnswer;
 };
-
-export default rightAnswer;

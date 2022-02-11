@@ -1,5 +1,5 @@
-import randomNum from '../functions/randomNum.js';
-import randomItem from '../functions/randomItem.js';
+import getRandomNum from '../functions/randomNum.js';
+import getRandomItem from '../functions/randomItem.js';
 import isPrime from '../functions/isPrime.js';
 
 const gamePrime = () => {
@@ -12,13 +12,13 @@ const gamePrime = () => {
   const yesAnswer = 'yes';
   const noAnswer = 'no';
   let number = 0;
-  const primeOrNot = randomItem(random);
+  const primeOrNot = getRandomItem(random);
   if (primeOrNot === 'Prime') {
-    number = randomItem(primeNumbers);
+    number = getRandomItem(primeNumbers);
   } else {
-    number = randomNum(2, 100);
+    number = getRandomNum(2, 100);
     while (isPrime(number) === true) {
-      number = randomNum(2, 100);
+      number = getRandomNum(2, 100);
     }
   }
   const question = `${number}`;
