@@ -14,9 +14,9 @@ const game = (dataOfGame, rule) => {
   console.log(rule);
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const [num, correctAnswer] = dataOfGame();
+    const [question, correctAnswer] = dataOfGame();
 
-    console.log(`Question: ${num}`);
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer === correctAnswer) {
