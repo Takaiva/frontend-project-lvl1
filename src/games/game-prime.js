@@ -1,8 +1,6 @@
-import readlineSync from 'readline-sync';
 import randomNum from '../functions/randomNum.js';
 import randomItem from '../functions/randomItem.js';
 import isPrime from '../functions/isPrime.js';
-import isTruePrime from '../functions/isTruePrime.js';
 
 const gamePrime = () => {
   const primeNumbers = [
@@ -10,35 +8,22 @@ const gamePrime = () => {
     73, 79, 83, 89, 97,
   ];
 
-  let roundCount = 0;
   const random = ['Prime', 'NotPrime'];
   const yesAnswer = 'yes';
   const noAnswer = 'no';
-
-  for (; roundCount < 3; roundCount += 1) {
-    let number = 0;
-    const primeOrNot = randomItem(random);
-    if (primeOrNot === 'Prime') {
-      number = randomItem(primeNumbers);
-    } else {
+  let number = 0;
+  const primeOrNot = randomItem(random);
+  if (primeOrNot === 'Prime') {
+    number = randomItem(primeNumbers);
+  } else {
+    number = randomNum(2, 100);
+    while (isPrime(number) === true) {
       number = randomNum(2, 100);
-      while (isPrime(number) === true) {
-        number = randomNum(2, 100);
-      }
-    }
-    const correctAnswer = isPrime(number) ? yesAnswer : noAnswer;
-    console.log(`Question: ${number}`);
-    const userAnswer = readlineSync.question('Your answer: ');
-    if (isTruePrime(userAnswer, number) === true) {
-      console.log('Correct!');
-    } else {
-      console.log(
-        `"${userAnswer}" is wrong answer. Correct answer was "${correctAnswer}"`,
-      );
-      return false;
     }
   }
-  return true;
+  const question = `${number}`;
+  const correctAnswer = isPrime(number) ? yesAnswer : noAnswer;
+  return [question, correctAnswer];
 };
 
 export default gamePrime;
