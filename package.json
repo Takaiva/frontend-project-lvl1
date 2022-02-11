@@ -26,14 +26,12 @@
   },
   "homepage": "https://github.com/Takaiva/frontend-project-lvl1#readme",
   "dependencies": {
-    "@hexlet/pairs": "^1.1.1",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "eslint": "^8.8.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
-    "jest": "^27.4.7",
     "prettier": "^2.5.1"
   }
 }
