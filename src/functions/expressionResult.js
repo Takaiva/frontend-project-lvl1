@@ -9,8 +9,11 @@ export default (num1, num2, operator) => {
     case '-':
       result = number1 - number2;
       break;
-    default:
+    case '*':
       result = number1 * number2;
+      break;
+    default:
+      return false;
   }
   return result;
 };
