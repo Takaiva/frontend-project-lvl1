@@ -1,9 +1,7 @@
-import isEven from './isEven.js';
-
-export default (num) => {
+export default (num, checkingFunction) => {
   const yesAnswer = 'yes';
   const noAnswer = 'no';
-  if (isEven(num) === true) {
+  if (checkingFunction(num) === true) {
     return yesAnswer;
   }
   return noAnswer;
