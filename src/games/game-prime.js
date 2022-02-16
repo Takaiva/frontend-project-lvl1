@@ -1,6 +1,7 @@
 import getRandomNum from '../functions/randomNum.js';
 import getRandomItem from '../functions/randomItem.js';
 import isPrime from '../functions/isPrime.js';
+import getRightAnswer from '../functions/rightAnswer.js';
 
 const gamePrime = () => {
   const primeNumbers = [
@@ -9,8 +10,6 @@ const gamePrime = () => {
   ];
 
   const random = ['Prime', 'NotPrime'];
-  const yesAnswer = 'yes';
-  const noAnswer = 'no';
   let number = 0;
   const primeOrNot = getRandomItem(random);
   if (primeOrNot === 'Prime') {
@@ -22,7 +21,7 @@ const gamePrime = () => {
     }
   }
   const question = `${number}`;
-  const correctAnswer = isPrime(number) ? yesAnswer : noAnswer;
+  const correctAnswer = getRightAnswer(number, isPrime);
   return [question, correctAnswer];
 };
 
