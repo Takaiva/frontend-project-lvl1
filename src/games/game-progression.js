@@ -1,22 +1,27 @@
 import getRandomItem from '../functions/randomItem.js';
 import getRandomNum from '../functions/randomNum.js';
 
+const getProgression = (initialNum, step, itemCount) => {
+  const progression = [];
+  let num = initialNum;
+  for (let i = 0; i < itemCount; i += 1) {
+    progression.push(num);
+    num += step;
+  }
+  return progression;
+};
+
 const gameProgression = () => {
   const steps = [2, 3, 5, 7];
-
-  const array = [];
-  const itemsCount = getRandomNum(5, 10);
+  const itemCount = getRandomNum(5, 10);
   const step = getRandomItem(steps);
-  let initialNum = getRandomNum(1, 50);
+  const initialNum = getRandomNum(1, 50);
+  const progression = getProgression(initialNum, step, itemCount);
 
-  for (let i = 0; i < itemsCount; i += 1) {
-    initialNum += step;
-    array.push(initialNum);
-  }
-  const indexOfHiddenItem = getRandomNum(0, array.length - 1);
-  const hiddenItem = array[indexOfHiddenItem];
-  array[indexOfHiddenItem] = '..';
-  const question = `${array.join(' ')}`;
+  const indexOfHiddenItem = getRandomNum(0, progression.length - 1);
+  const hiddenItem = progression[indexOfHiddenItem];
+  progression[indexOfHiddenItem] = '..';
+  const question = `${progression.join(' ')}`;
   const correctAnswer = hiddenItem.toString();
   return [question, correctAnswer];
 };
