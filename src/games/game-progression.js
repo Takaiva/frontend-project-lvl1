@@ -1,5 +1,6 @@
-import getRandomItem from '../functions/randomItem.js';
 import getRandomNum from '../functions/randomNum.js';
+
+const rule = 'What number is missing in the progression?';
 
 const getProgression = (initialNum, step, itemCount) => {
   const progression = [];
@@ -12,9 +13,8 @@ const getProgression = (initialNum, step, itemCount) => {
 };
 
 const gameProgression = () => {
-  const steps = [2, 3, 5, 7];
   const itemCount = getRandomNum(5, 10);
-  const step = getRandomItem(steps);
+  const step = getRandomNum(1, 10);
   const initialNum = getRandomNum(1, 50);
   const progression = getProgression(initialNum, step, itemCount);
 
@@ -26,4 +26,4 @@ const gameProgression = () => {
   return [question, correctAnswer];
 };
 
-export default gameProgression;
+export { gameProgression, rule };
