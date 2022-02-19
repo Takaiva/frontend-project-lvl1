@@ -6,8 +6,6 @@ const game = (dataOfGame, rule) => {
   console.log('Welcome to the Brain Games!');
 
   const userName = readlineSync.question('May I have your name? ');
-  const success = `Congratulations, ${userName}!`;
-  const fail = `Let's try again, ${userName}!`;
 
   console.log(`Hello, ${userName}!`);
 
@@ -25,11 +23,11 @@ const game = (dataOfGame, rule) => {
       console.log(
         `"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer}".`,
       );
-      console.log(fail);
+      console.log(`Let's try again, ${userName}!`);
       return false;
     }
   }
-  console.log(success);
+  console.log(`Congratulations, ${userName}!`);
   return true;
 };
 
