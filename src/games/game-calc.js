@@ -1,6 +1,25 @@
 import getRandomNum from '../functions/randomNum.js';
 import getRandomItem from '../functions/randomItem.js';
-import getExpressionResult from '../functions/expressionResult.js';
+
+const rule = 'What is the result of the expression?';
+
+const getExpressionResult = (num1, num2, operator) => {
+  let result;
+  switch (operator) {
+    case '+':
+      result = num1 + num2;
+      break;
+    case '-':
+      result = num1 - num2;
+      break;
+    case '*':
+      result = num1 * num2;
+      break;
+    default:
+      return false;
+  }
+  return result;
+};
 
 const gameCalc = () => {
   const operators = ['+', '-', '*'];
@@ -16,4 +35,4 @@ const gameCalc = () => {
   return [question, correctAnswer];
 };
 
-export default gameCalc;
+export { gameCalc, rule };
