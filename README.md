@@ -96,4 +96,5 @@ make brain-prime
 
 ## Requirements
 
+Linux/MacOs
 Nodejs version 17.0.0 or higher
